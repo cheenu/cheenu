@@ -13,19 +13,58 @@ layout: default
     </ul>
 </div>
 <div class="blog">
-    <h1>Blog Posts:</h1>
+    <h1>Book Reviews:</h1>
     <ul>
-        {% for post in site.posts %}
-        <li>
-            <span class="date">{{ post.date | date: '%Y %b %d' }}</span> - <a href="{{ post.url }}">{{ post.title }}</a>
-        </li>
-        {% endfor %}
+        <table>
+          <thead>
+            <tr>
+              <th width="5%">
+              </th>
+              <th width="20%">
+                <strong>
+                  Date
+                </strong>
+              </th>
+              <th>
+                <strong>
+                  Book Name
+                </strong>
+              </th>
+              <th width="20%">
+                <strong>
+                  Rating
+                </strong>
+              </th>
+              <th width="10%">
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for post in site.posts reversed %}
+            <tr>
+              <td>
+                {{ forloop.index }}
+              </td>
+              <td>
+                <span class="date">{{ post.date | date: '%e %b' }}</span>
+              </td>
+              <td>
+                <a href="{{ post.amazon_url }}">{{ post.title }}</a>
+              </td>
+              <td>
+                {% for i in (1..post.rating)%}
+                <img src="assets/img/star.png" height="16px">
+                {% endfor %}
+                {% if post.half_star %}
+                <img src="assets/img/half_star.png" height="16px">
+                {% endif %}
+              </td>
+              <td>
+                <a href="{{ post.url }}">Review</a>
+              </td>
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
     </ul>
 </div>
-<!--
-<div class="music">
-    <h1>Now Playing:</h1>
-    <a href="http://www.last.fm/user/getmicah"><span id="nowPlaying"></span></a>
-</div>
-<script src="/assets/js/main.js"></script>
--->
