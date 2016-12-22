@@ -21,9 +21,7 @@ transition into migrants looking for work.
 
 John Steinbreck, however, uses his sheer mastery of the spoken word to write
 an incredible novel. You, despite having nothing in common, relate to the Joads,
-share their misery and share their helplessness. The way John Steinbreck
-alternatives chapters between the Joad family and commentary about the
-transformation of egalitarian society to an inegalitarian society.
+share their misery and share their helplessness. 
 
 Read it, not for the story or the setting - although both are pertinent but
 for John Steinbreck's writing style. You'll be dismayed twice - first at
@@ -31,4 +29,4 @@ the story arc of the Joad family and second, because you know you'll never
 ever be able to write anything as good as John Steinbreck in your life.
 
 Oh, and the ending. I won't say more, I can see a lot of people hating it -
-but oh, what a finish. 
+but oh, what a finish.
