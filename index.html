@@ -43,7 +43,7 @@ layout: default
             {% for post in site.posts %}
             <tr>
               <td>
-                {{ forloop.index }}
+                {{ forloop.rindex }}.
               </td>
               <td>
                 <span class="date">{{ post.date | date: '%e %b' }}</span>
