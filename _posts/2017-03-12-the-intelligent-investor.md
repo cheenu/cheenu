@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Sapiens by Yuval Noah Harari
-amazon_url: http://www.amazon.in/Sapiens-Yuval-Noah-Harari/dp/0099590085/ref=sr_1_1?ie=UTF8&qid=1488872152&sr=8-1&keywords=sapiens
+title: The Intelligent Investor by Benjamin Graham
+amazon_url: http://www.amazon.in/Intelligent-Investor-Benjamin-Graham/dp/0062312685/ref=sr_1_1?ie=UTF8&qid=1489516889&sr=8-1&keywords=the+intelligent+investor
 rating: 2
 half_star: false
 ---
@@ -14,4 +14,4 @@ minutia of US specific securities.
 I'd recommend giving it a skip - its not badly written by any measure but
 its kind of irrelevant in the modern day. I'm sure they are better books out
 there on investing. Anyway, most of investment advice boils down to - invest
-only in index funds, so not sure whether a book is really required :). 
+only in index funds, so not sure whether a book is really required :).
